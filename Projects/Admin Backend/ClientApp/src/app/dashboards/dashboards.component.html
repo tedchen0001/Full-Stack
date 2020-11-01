@@ -1,0 +1,20 @@
+<div>
+    <mat-form-field class="">
+        <mat-label>姓名</mat-label>
+        <input matInput placeholder="請填寫姓名" value="">
+    </mat-form-field>
+</div>
+<div>
+    <mat-form-field>
+        <mat-label>職稱</mat-label>
+        <mat-select required name="JobTitle" #refCountry="ngModel" class="" [(ngModel)]="selectedJobTitles">
+            <mat-option value="undefined">Please select Value</mat-option>
+            <mat-option *ngFor="let title of jobTitles" [value]="title.businessEntityID">
+                {{title.jobTitle}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+<div>
+    <button mat-raised-button color="primary">Primary</button>
+</div>
