@@ -1,4 +1,4 @@
-# Full-Stack
+# .NET Core Full-Stack
 self-taught
 
 ### navmenu(Material)
