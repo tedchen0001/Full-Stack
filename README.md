@@ -7,7 +7,7 @@ source from https://www.youtube.com/watch?v=fsL85nyjJRs&ab_channel=RajanDubey
 ### Projects
 practice Admin Backend + WebAPI + Swagger 
 
-### Ref Websites 
+### Useful Websites 
 https://www.connectionstrings.com/ <br />
 https://www.nuget.org/ <br />
 https://www.c-sharpcorner.com/article/asp-net-core-3-1-web-api-and-swagger/ <br />
